@@ -25,7 +25,6 @@ A extensão realiza uma verificação passiva das respostas para identificar se 
 - Verifica de forma passiva as respostas HTTP em busca de potenciais casos de XSS refletido.
 - Permite ao usuário configurar uma lista de strings `(Wordlist)` de pesquisa para personalizar a detecção de XSS.
 
-
 ## Utilização
 
 # XSS Detector
@@ -46,13 +45,11 @@ A extensão realiza uma verificação passiva das respostas para identificar se 
 
 - Burp Suite
 - Jython 2.7.2
+- Python
 
 ## Exemplo
 
 Após configurar a extensão e executar uma varredura no Burp Suite, a extensão identificará se há algum campo de entrada refletido diretamente na resposta, indicando a possibilidade de XSS refletido.
 
-
-
-## Exemplo
-
-Após configurar a extensão e executar uma varredura no Burp Suite, a extensão identificará se há algum campo de entrada refletido diretamente na resposta, indicando a possibilidade de XSS refletido.
+# Observação
+## Utilizei o webserverxss.py como PoC para ter uma segunda perpectiva mais simples sobre a lógica do Response HTML e para evidência do teste.
