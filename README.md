@@ -53,3 +53,16 @@ Após configurar a extensão e executar uma varredura no Burp Suite, a extensão
 
 # Observação
 ## Utilizei o webserverxss.py como PoC para ter uma segunda perpectiva mais simples sobre a lógica do Response HTML e para evidência do teste.
+
+# Resultados
+
+## XSS Detector
+
+https://github.com/empiii/XSSChallenge/assets/47393806/0089eaad-a75a-40ee-82fa-9c34f86ec698
+
+## PotentialXSS
+
+https://github.com/empiii/XSSChallenge/assets/47393806/0bbe657f-b915-4c17-9db4-44367701ca85
+
+
+
